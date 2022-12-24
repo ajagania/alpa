@@ -1,0 +1,29 @@
+int main() {
+
+ios_base::sync_with_stdio(false);
+
+cin.tie(NULL);
+
+cout.tie(NULL);
+
+int r;
+
+cin >> r;
+
+float perimeter = (float)(44 * r) / 7.0;
+
+float side = (float)perimeter / 6.0;
+
+printf("%0.2f", side);
+
+return 0;
+
+}
+
+Satish Sharma
+just now
+String s="23.6";
+
+float f=Float.parseFloat("23.6");
+
+System.out.println(f);
